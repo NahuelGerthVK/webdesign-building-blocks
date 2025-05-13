@@ -12,3 +12,7 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 ### 1. CSS
 
 - [div with fixed aspect ratio](fixed-aspect-ratio/)
+
+### 2. JS
+
+- [infinite text banner (gsap)](infinite-text-banner/)
