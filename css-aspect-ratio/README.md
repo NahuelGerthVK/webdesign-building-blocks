@@ -4,6 +4,6 @@ A div box that always takes the larges available space within a parent but keeps
 
 ---
 
-![Preview](/preview.jpg)
+![Preview](/css-aspect-ratio/preview.jpg)
 
 ---
