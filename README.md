@@ -12,6 +12,7 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 ### 1. CSS
 
 - [div with fixed aspect ratio](fixed-aspect-ratio/)
+- [border radius blobs](css-blobs/)
 
 ### 2. JS
 
