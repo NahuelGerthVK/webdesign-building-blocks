@@ -2,6 +2,9 @@
 
 We can use two border radius values to create wobbly css blobs.
 
+**Live preview:**
+https://nahuelgerth.de/tools/css-blobs/
+
 ---
 
 ![Preview](/css-blobs/preview.jpg)
