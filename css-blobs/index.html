@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CSS blobs</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- 1: simple blob-->
+      <div class="container">
+        <div class="simple-blob"></div>
+        <span class="label">simple CSS blob with border radius</span>
+      </div>
+
+      <!-- 2: simple blob-->
+      <div class="container">
+        <div class="hover-blob"></div>
+        <span class="label">hover blob</span>
+      </div>
+
+      <!-- 3: animated blob-->
+      <div class="container">
+        <div class="animated-blob"></div>
+        <span class="label">keyframe animation blob</span>
+      </div>
+
+      <!-- 4: as mask an image -->
+      <div class="container">
+        <img src="hand.jpg" class="animated-blob reverse" />
+
+        <span class="label">mask an image</span>
+      </div>
+
+      <!-- 5: as mask on image or video -->
+      <div class="container">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          preload="auto"
+          class="animated-blob"
+        >
+          <source src="snow.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <span class="label">or a video</span>
+      </div>
+    </div>
+  </body>
+</html>
