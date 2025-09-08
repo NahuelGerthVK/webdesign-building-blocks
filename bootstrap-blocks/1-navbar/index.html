@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Navbar</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- navbar-->
+    <nav class="main-navigation navbar fixed-top">
+      <div class="container-fluid">
+        <!-- Home  button -->
+        <a class="homebutton" href="#">
+          <img src="home.svg" alt="Logo" />
+        </a>
+
+        <!-- burger (open navbar) -->
+        <a
+          class="burger"
+          data-bs-toggle="offcanvas"
+          href="#mainmenu"
+          role="button"
+          aria-controls="mainmenu"
+        >
+          <img src="open.svg" alt="open menu icon" />
+        </a>
+      </div>
+    </nav>
+
+    <!-- slide in navigation -->
+    <div
+      class="slide-in-menu offcanvas offcanvas-end"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="mainmenu"
+      aria-labelledby="mainmenu"
+    >
+      <!-- header -->
+      <div class="offcanvas-header">
+        <!-- x (close navbar) -->
+        <a class="close" data-bs-dismiss="offcanvas" aria-label="Close">
+          <img src="close.svg" alt="close menu icon" />
+        </a>
+      </div>
+
+      <!-- body -->
+      <div class="offcanvas-body">
+        <!-- main menu -->
+        <ul class="main-menu">
+          <li>
+            <a href="#">Page 1</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="assets/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

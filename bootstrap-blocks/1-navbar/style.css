@@ -1,0 +1,43 @@
+/* reset our CSS */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* navbar */
+.main-navigation {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  pointer-events: none;
+}
+
+.main-navigation a {
+  pointer-events: auto;
+}
+
+.homebutton,
+.burger,
+.close {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.homebutton img,
+.burger img,
+.close img {
+  width: 100%;
+}
+
+.slide-in-menu .offcanvas-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

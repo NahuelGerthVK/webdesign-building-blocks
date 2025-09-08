@@ -17,3 +17,10 @@ For feedback and improvement ideas feel free to reach out to [info@nahuelgerth.d
 ### 2. JS
 
 - [infinite text banner (gsap)](infinite-text-banner/)
+
+### 3. Bootstrap
+
+A number of fully functional and usable bootstrap building blocks.
+
+- [slide-in navbar](bootstrap-blocks/1-navbar/)
+- [hero header](bootstrap-blocks/2-hero-header/)
