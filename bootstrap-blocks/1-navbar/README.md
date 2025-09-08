@@ -1,6 +1,12 @@
-# navbar (bootstrap)
+# slide-in navbar (bootstrap)
 
-We can use two border radius values to create wobbly css blobs.
+Menu slides in from right.
+We can change that by using this class for the `offcanvas` element.
+
+- `.offcanvas-start` (slide in from left)
+- `.offcanvas-end` (slide in from right)
+- `.offcanvas-top` (slide in from top)
+- `.offcanvas-bottom` (slide in from bottom)
 
 ---
 
