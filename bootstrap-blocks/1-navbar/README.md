@@ -1,7 +1,7 @@
 # slide-in navbar (bootstrap)
 
 Menu slides in from right.
-We can change that by using this class for the `offcanvas` element.
+We can change that by adjusting the class of our `offcanvas` element.
 
 - `.offcanvas-start` (slide in from left)
 - `.offcanvas-end` (slide in from right)
