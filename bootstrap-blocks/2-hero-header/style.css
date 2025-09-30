@@ -1,0 +1,70 @@
+/* reset our CSS */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero .hero-content {
+
+  /* we don't want the whole area to be clickable, only the buttons / texts */
+  pointer-events: none;
+  z-index: 1;
+
+  max-width: 700px;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero .hero-content * {
+  pointer-events: auto;
+  width: fit-content;
+}
+
+.hero .hero-content h1,
+.hero .hero-content h2,
+.hero .hero-content p {
+  /* in case we use bootstrap */
+  margin: 0;
+}
+
+
+/* HERO IMAGE */
+.hero .hero-image {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  /* in case the image should NOT be cropped */
+  object-fit: contain;
+
+  /* in case the image should fill the whole area */
+  object-fit: cover;
+
+  object-position: center center;
+  z-index: 0;
+  pointer-events: auto;
+}
+
+/* MOBILE: */
+
+/* adjust height of hero-section */
