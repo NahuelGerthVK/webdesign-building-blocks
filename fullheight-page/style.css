@@ -1,0 +1,49 @@
+/* reset our CSS */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* page layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  min-height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* navigation */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem;
+  z-index: 10;
+}
+
+/* footer stays at bottom */
+footer {
+  margin-top: auto;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 1.5rem;
+}
